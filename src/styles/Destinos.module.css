@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d55387319df169787a70e1b1c7fcb3bf2ee470c
+.title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detailImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+}
+
+.infoSection {
+  background-color: #0f172a;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+}
+
+.detailTitle {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.fullDescription {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.priceBadge {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(74, 222, 128, 0.15);
+  color: #4ade80;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
